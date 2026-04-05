@@ -126,6 +126,7 @@ class UniversalDependencyRelation extends DependencyRelation
                 return self::$universalDependencyTypes[$j];
             }
         }
+        return "";
     }
 
 }
